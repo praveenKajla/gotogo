@@ -25,6 +25,9 @@ func main() {
 	tree.BinaryTreeExample()
 	arrays.FindPairHashmap([]int{8, 7, 2, 5, 3, 1}, 10)
 	// arrays.PrintallSubarraysZeroSumNaive([] int{3, 4, -7, 3, 1, 3, 1, -4, -2, -2})
-	arrays.PrintallSubarraysZeroSum([] int{3, 4, -7, 3, 1, 3, 1, -4, -2, -2})
+	// arrays.PrintallSubarraysZeroSum([] int{3, 4, -7, 3, 1, 3, 1, -4, -2, -2})
+	// fmt.Println(arrays.SortBinaryArrayPartitioning([]int{ 1, 0, 1, 0, 1, 0, 0, 1 }))
+	fmt.Println(arrays.QuickSort([]int { 9, -3, 5, 2, 6, 8, -6, 1, 3 }))
+	fmt.Println(arrays.FindDuplicateAbs([]int{1,2,3,4,4}))
 
 }
