@@ -29,5 +29,7 @@ func main() {
 	// fmt.Println(arrays.SortBinaryArrayPartitioning([]int{ 1, 0, 1, 0, 1, 0, 0, 1 }))
 	fmt.Println(arrays.QuickSort([]int { 9, -3, 5, 2, 6, 8, -6, 1, 3 }))
 	fmt.Println(arrays.FindDuplicateAbs([]int{1,2,3,4,4}))
+	fmt.Println(arrays.FindMaxSumSubArray([]int{1,2,-3,4,4}))
+	fmt.Println(arrays.MaxLengthSumSubArray([]int{ 5, 6, -5, 5, 3, 5, 3, -2, 0 },8))
 
 }
